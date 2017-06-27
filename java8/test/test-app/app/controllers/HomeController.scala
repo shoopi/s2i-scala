@@ -18,7 +18,7 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Hi BBerssssss! <br/> This change has been detected via Webhook. Isn't it cool?!."))
+    Ok(views.html.index("Hi BBerssssss! This change has been detected via Webhook. Isn't it cool?!."))
   }
 
 }
